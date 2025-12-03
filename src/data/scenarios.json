@@ -1,0 +1,544 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "description": "Object moving in the positive direction at constant velocity.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_pco_s1"],
+          "incorrectCards": [
+            "pvt_pin_s2",
+            "pvt_pde_s3",
+            "pvt_nco_s4",
+            "pvt_nin_s5",
+            "pvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_pco_s1"],
+          "incorrectCards": [
+            "vvt_pin_s2",
+            "vvt_pde_s3",
+            "vvt_nco_s4",
+            "vvt_nin_s5",
+            "vvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_pco_s1"],
+          "incorrectCards": [
+            "avt_pin_s2",
+            "avt_pde_s3",
+            "avt_nco_s4",
+            "avt_nin_s5",
+            "avt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_pco_s1"],
+          "incorrectCards": [
+            "vel_pin_s2",
+            "vel_pde_s3",
+            "vel_nco_s4",
+            "vel_nin_s5",
+            "vel_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_pco_s1"],
+          "incorrectCards": [
+            "acc_pin_s2",
+            "acc_pde_s3",
+            "acc_nco_s4",
+            "acc_nin_s5",
+            "acc_nde_s6"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_pco_s1"],
+          "incorrectCards": [
+            "mot_pin_s2",
+            "mot_pde_s3",
+            "mot_nco_s4",
+            "mot_nin_s5",
+            "mot_nde_s6"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_pco_s1"],
+          "incorrectCards": [
+            "fbd_pin_s2",
+            "fbd_pde_s3",
+            "fbd_nco_s4",
+            "fbd_nin_s5",
+            "fbd_nde_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Object moving in the positive direction and speeding up.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_pin_s2"],
+          "incorrectCards": [
+            "pvt_pco_s1",
+            "pvt_pde_s3",
+            "pvt_nco_s4",
+            "pvt_nin_s5",
+            "pvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_pin_s2"],
+          "incorrectCards": [
+            "vvt_pco_s1",
+            "vvt_pde_s3",
+            "vvt_nco_s4",
+            "vvt_nin_s5",
+            "vvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_pin_s2"],
+          "incorrectCards": [
+            "avt_pco_s1",
+            "avt_pde_s3",
+            "avt_nco_s4",
+            "avt_nin_s5",
+            "avt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_pin_s2"],
+          "incorrectCards": [
+            "vel_pco_s1",
+            "vel_pde_s3",
+            "vel_nco_s4",
+            "vel_nin_s5",
+            "vel_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_pin_s2"],
+          "incorrectCards": [
+            "acc_pco_s1",
+            "acc_pde_s3",
+            "acc_nco_s4",
+            "acc_nin_s5",
+            "acc_nde_s6"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_pin_s2"],
+          "incorrectCards": [
+            "mot_pco_s1",
+            "mot_pde_s3",
+            "mot_nco_s4",
+            "mot_nin_s5",
+            "mot_nde_s6"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_pin_s2"],
+          "incorrectCards": [
+            "fbd_pco_s1",
+            "fbd_pde_s3",
+            "fbd_nco_s4",
+            "fbd_nin_s5",
+            "fbd_nde_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Object moving in the positive direction and slowing down.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_pde_s3"],
+          "incorrectCards": [
+            "pvt_pco_s1",
+            "pvt_pin_s2",
+            "pvt_nco_s4",
+            "pvt_nin_s5",
+            "pvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_pde_s3"],
+          "incorrectCards": [
+            "vvt_pco_s1",
+            "vvt_pin_s2",
+            "vvt_nco_s4",
+            "vvt_nin_s5",
+            "vvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_pde_s3"],
+          "incorrectCards": [
+            "avt_pco_s1",
+            "avt_pin_s2",
+            "avt_nco_s4",
+            "avt_nin_s5",
+            "avt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_pde_s3"],
+          "incorrectCards": [
+            "vel_pco_s1",
+            "vel_pin_s2",
+            "vel_nco_s4",
+            "vel_nin_s5",
+            "vel_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_pde_s3"],
+          "incorrectCards": [
+            "acc_pco_s1",
+            "acc_pin_s2",
+            "acc_nco_s4",
+            "acc_nin_s5",
+            "acc_nde_s6"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_pde_s3"],
+          "incorrectCards": [
+            "mot_pco_s1",
+            "mot_pin_s2",
+            "mot_nco_s4",
+            "mot_nin_s5",
+            "mot_nde_s6"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_pde_s3"],
+          "incorrectCards": [
+            "fbd_pco_s1",
+            "fbd_pin_s2",
+            "fbd_nco_s4",
+            "fbd_nin_s5",
+            "fbd_nde_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Object moving in the negative direction at constant velocity.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_nco_s4"],
+          "incorrectCards": [
+            "pvt_pco_s1",
+            "pvt_pin_s2",
+            "pvt_pde_s3",
+            "pvt_nin_s5",
+            "pvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_nco_s4"],
+          "incorrectCards": [
+            "vvt_pco_s1",
+            "vvt_pin_s2",
+            "vvt_pde_s3",
+            "vvt_nin_s5",
+            "vvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_nco_s4"],
+          "incorrectCards": [
+            "avt_pco_s1",
+            "avt_pin_s2",
+            "avt_pde_s3",
+            "avt_nin_s5",
+            "avt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_nco_s4"],
+          "incorrectCards": [
+            "vel_pco_s1",
+            "vel_pin_s2",
+            "vel_pde_s3",
+            "vel_nin_s5",
+            "vel_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_nco_s4"],
+          "incorrectCards": [
+            "acc_pco_s1",
+            "acc_pin_s2",
+            "acc_pde_s3",
+            "acc_nin_s5",
+            "acc_nde_s6"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_nco_s4"],
+          "incorrectCards": [
+            "mot_pco_s1",
+            "mot_pin_s2",
+            "mot_pde_s3",
+            "mot_nin_s5",
+            "mot_nde_s6"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_nco_s4"],
+          "incorrectCards": [
+            "fbd_pco_s1",
+            "fbd_pin_s2",
+            "fbd_pde_s3",
+            "fbd_nin_s5",
+            "fbd_nde_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Object moving in the negative direction and speeding up.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_nin_s5"],
+          "incorrectCards": [
+            "pvt_pco_s1",
+            "pvt_pin_s2",
+            "pvt_pde_s3",
+            "pvt_nco_s4",
+            "pvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_nin_s5"],
+          "incorrectCards": [
+            "vvt_pco_s1",
+            "vvt_pin_s2",
+            "vvt_pde_s3",
+            "vvt_nco_s4",
+            "vvt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_nin_s5"],
+          "incorrectCards": [
+            "avt_pco_s1",
+            "avt_pin_s2",
+            "avt_pde_s3",
+            "avt_nco_s4",
+            "avt_nde_s6"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_nin_s5"],
+          "incorrectCards": [
+            "vel_pco_s1",
+            "vel_pin_s2",
+            "vel_pde_s3",
+            "vel_nco_s4",
+            "vel_nde_s6"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_nin_s5"],
+          "incorrectCards": [
+            "acc_pco_s1",
+            "acc_pin_s2",
+            "acc_pde_s3",
+            "acc_nco_s4",
+            "acc_nde_s6"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_nin_s5"],
+          "incorrectCards": [
+            "mot_pco_s1",
+            "mot_pin_s2",
+            "mot_pde_s3",
+            "mot_nco_s4",
+            "mot_nde_s6"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_nin_s5"],
+          "incorrectCards": [
+            "fbd_pco_s1",
+            "fbd_pin_s2",
+            "fbd_pde_s3",
+            "fbd_nco_s4",
+            "fbd_nde_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Object moving in the negative direction and slowing down.",
+      "slots": [
+        {
+          "slotId": "position_graph",
+          "category": "p_vs_t",
+          "correctCards": ["pvt_nde_s6"],
+          "incorrectCards": [
+            "pvt_pco_s1",
+            "pvt_pin_s2",
+            "pvt_pde_s3",
+            "pvt_nco_s4",
+            "pvt_nin_s5"
+          ]
+        },
+        {
+          "slotId": "velocity_graph",
+          "category": "v_vs_t",
+          "correctCards": ["vvt_nde_s6"],
+          "incorrectCards": [
+            "vvt_pco_s1",
+            "vvt_pin_s2",
+            "vvt_pde_s3",
+            "vvt_nco_s4",
+            "vvt_nin_s5"
+          ]
+        },
+        {
+          "slotId": "acceleration_graph",
+          "category": "a_vs_t",
+          "correctCards": ["avt_nde_s6"],
+          "incorrectCards": [
+            "avt_pco_s1",
+            "avt_pin_s2",
+            "avt_pde_s3",
+            "avt_nco_s4",
+            "avt_nin_s5"
+          ]
+        },
+        {
+          "slotId": "velocity_text",
+          "category": "velocity_text",
+          "correctCards": ["vel_nde_s6"],
+          "incorrectCards": [
+            "vel_pco_s1",
+            "vel_pin_s2",
+            "vel_pde_s3",
+            "vel_nco_s4",
+            "vel_nin_s5"
+          ]
+        },
+        {
+          "slotId": "acceleration_text",
+          "category": "acceleration_text",
+          "correctCards": ["acc_nde_s6"],
+          "incorrectCards": [
+            "acc_pco_s1",
+            "acc_pin_s2",
+            "acc_pde_s3",
+            "acc_nco_s4",
+            "acc_nin_s5"
+          ]
+        },
+        {
+          "slotId": "motion_diagram",
+          "category": "motion_diagram",
+          "correctCards": ["mot_nde_s6"],
+          "incorrectCards": [
+            "mot_pco_s1",
+            "mot_pin_s2",
+            "mot_pde_s3",
+            "mot_nco_s4",
+            "mot_nin_s5"
+          ]
+        },
+        {
+          "slotId": "free_body_diagram",
+          "category": "free_body_diagram",
+          "correctCards": ["fbd_nde_s6"],
+          "incorrectCards": [
+            "fbd_pco_s1",
+            "fbd_pin_s2",
+            "fbd_pde_s3",
+            "fbd_nco_s4",
+            "fbd_nin_s5"
+          ]
+        }
+      ]
+    }
+  ]
+}
