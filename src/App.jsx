@@ -4,6 +4,18 @@ import scenariosData from "./data/scenarios.json";
 import cardsData from "./data/cards.json";
 import { generateCardsForScenario } from "./game/engine.js";
 
+//changed line below for github
+// Build a URL for assets that works with Vite's base (/physics-game/)
+const getAssetUrl = (assetPath) => {
+  if (!assetPath) return "";
+  // import.meta.env.BASE_URL is "/physics-game/" in your build
+  const base = import.meta.env.BASE_URL || "/";
+  // avoid double slashes like "/physics-game//assets/..."
+  const cleanPath = assetPath.startsWith("/") ? assetPath.slice(1) : assetPath;
+  return base + cleanPath;
+};
+
+
 // Build deck from all scenarios
 function buildDeckFromScenarios(scenarios) {
   const deck = [];
@@ -241,7 +253,8 @@ function App() {
       >
         {cardInfo?.type === "image" ? (
           <img
-            src={cardInfo.asset}
+            //src={cardInfo.asset} //changed line below for github
+            src={getAssetUrl(cardInfo.asset)}
             alt={cardInfo.id}
             style={{
               width: "100%",
@@ -315,7 +328,8 @@ function App() {
           }}
         >
           <img
-            src={cardInfo.asset}
+            //src={cardInfo.asset} //changed for github
+            src={getAssetUrl(cardInfo.asset)}
             alt={cardInfo.id}
             style={{
               maxWidth: "100%",
